@@ -14,7 +14,18 @@ public class CCuenta {
     private String cuenta;
     private double saldo;
     private double tipoInteres;
+    private String nombreDeObjeto;
+    private int edadDeObjeto;
 
+    public String getNombreDeObjeto() {
+        return nombreDeObjeto;
+    }
+
+    public int getEdadDeObjeto() {
+        return edadDeObjeto;
+    }
+
+    
     public CCuenta() {
     }
 
